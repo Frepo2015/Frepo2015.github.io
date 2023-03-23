@@ -35,7 +35,7 @@ function Verify(){
             if(obj[i].pass==password){
                 console.log(obj[i].pass);
                 alert('Bienvenido '+ obj[i].nombre+' '+obj[i].apellido);
-                document.getElementById('authentication').action = "/main.html"
+                document.getElementById('authentication').action = "main.html"
             }else{
                 alert('Contrasena incorrecta');
             }
