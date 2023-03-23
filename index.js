@@ -52,6 +52,7 @@ function Verify() {
     }
 }
 
+    document.getElementById('showU').addEventListener('click', Show('divUsers'))
     document.querySelector('form').addEventListener('submit', e=>{
         e.preventDefault()
         const data = Object.fromEntries(
